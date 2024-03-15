@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Server=localhost,1433;Database=UsersDatabase;User Id=SA;Password=StasSqlServer123;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer --use-database-names --data-annotations --context-dir . --context UsersDbContext --output-dir Models
